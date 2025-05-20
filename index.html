@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Миньон Звук</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f7f7f7;
+      font-family: sans-serif;
+    }
+    img {
+      width: 300px;
+      cursor: pointer;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <img src="Karnaval.jpg" alt="Титя" onclick="document.getElementById('player').play()">
+  <audio id="player">
+    <source src="myinstants.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает воспроизведение аудио.
+  </audio>
+</body>
+</html>
